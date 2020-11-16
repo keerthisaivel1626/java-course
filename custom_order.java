@@ -125,6 +125,23 @@ System.out.println("_________________________________________");
 tax = cost * TAX_RATE;
 System.out.printf("The tax is: $%.2f\n", tax);
 System.out.printf("The total due is: $%.2f\n",(tax + cost));
+	    
+	    int totalCost;
+            String addOnList;
+
+   
+
+  static void addItem(String item, int cost) {
+  totalCost+=cost;
+  addOnList+=item;
+}
+
+  
+
+  if (frostingType != "no"){
+  addItem(frostingType,2);
+  addOnList+=", ";
+}
   
     }   
 }
