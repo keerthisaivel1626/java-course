@@ -7,7 +7,21 @@ public class custom_order {
     // STEP 1 PRINTING HELLO WORLD TO CONSOLE
     public static void main(String[] args) {
         
-      System.out.println("Hello World!"); // print Hello World to console
+     // System.out.println("Hello World!"); // print Hello World to console
+	    Scanner keyboard = new Scanner (System.in); 
+
+        String firstName; // User's first name
+       String itemOrder; // Item ordered
+       String frostingType; // Frosting ordered
+      String fillingType; // Filling ordered
+       String toppings; // Toppings ordered
+String input;  // User input
+
+double cost = 15.00; // Cost of cake and cupcakes
+final double TAX_RATE = .08;  // Sales tax rate
+double tax; // Amount of tax
+	    System.out.println("Welcome to Java's Cake & Cupcake Shop!");
+System.out.println("We make custom cakes with our secret cake batter!");
         
     // TEST CODE
     
